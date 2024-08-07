@@ -33,7 +33,7 @@ $mobile = !empty($_POST['mobile']) ? htmlspecialchars($_POST['mobile']) : "Not P
 <body class="bg-slate-900 font-[Montserrat] h-dvh overflow-hidden">
     
     <div class="flex flex-col justify-center items-center h-full">
-        <h1 class=" text-5xl mb-5 font-semibold text-white">ITP10 Registration</h1>
+        <h1 class=" text-5xl mb-5 font-semibold text-white">IPT10 Registration Data</h1>
         <table class="bg-white text-black rounded-lg shadow-md w-7/12">
             <thead>
                 <tr>
