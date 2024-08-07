@@ -21,6 +21,7 @@ $mobile = !empty($_POST['mobile']) ? htmlspecialchars($_POST['mobile']) : "Not P
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blaze Summary 🔥</title>
     <meta name="description" content="PHP Registration Form"/>
+    <link rel="shortcut icon" href="../asset/Great-Dane.png" type="image/x-icon">
     <!-- Tailwind -->
     <link rel="stylesheet" href="../public/tailwind.css">
     <link rel="stylesheet" href="../public/output.css">

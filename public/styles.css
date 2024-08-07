@@ -1,0 +1,17 @@
+.relative .text-content {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.relative:hover .text-content {
+    opacity: 1;
+}
+
+.relative img {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.relative:hover img {
+    transform: scale(1.25);
+    opacity: 0.2;
+}
