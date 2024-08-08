@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blaze Register 🔥</title>
+    <title>Roargistration 🔥</title>
     <meta name="description" content="PHP Registration Form"/>
     <link rel="shortcut icon" href="../asset/Great-Dane.png" type="image/x-icon">
 
@@ -31,7 +31,7 @@
                 <h1 class="text-lg md:text-4xl font-semibold">Create an account</h1>
                 <form action="summary.php" method="POST" class="space-y-5 inline-flex flex-col w-8/12">
                     <div class="inline-flex flex-col">
-                        <label for="name" class=" text-slate-400 text-xs font-medium tracking-wide mb-1">NAME <span class="text-red-500">*</span></label>
+                        <label for="name" class=" text-slate-400 text-xs font-medium tracking-wide mb-1">Name <span class="text-red-500">*</span></label>
                         <input placeholder="Complete Name" type="text" id="name" name="name" required class="text-slate-900 px-5 font-medium py-2 rounded-md border-none focus:outline-none bg-slate-200 ring-1 ring-gray-300">
                     </div>
 
