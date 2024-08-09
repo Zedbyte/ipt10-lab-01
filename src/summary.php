@@ -34,12 +34,13 @@ $mobile = !empty($_POST['mobile']) ? htmlspecialchars($_POST['mobile']) : "Not P
 <body class="bg-slate-900 font-[Montserrat] h-dvh overflow-hidden">
     
     <div class="flex flex-col justify-center items-center h-full">
-        <h1 class=" text-5xl mb-5 font-semibold text-white">IPT10 Registration Data</h1>
-        <table class="bg-white text-black rounded-lg shadow-md w-7/12">
+        <div class="z-[-1] absolute inset-x-0 m-auto h-5/6 max-w-9/12 bg-gradient-to-tr from-indigo-400 via-teal-900 to-[#C084FC] blur-[118px]"></div>
+        <h2 class="mx-auto text-4xl font-extrabold text-slate-50 md:text-5xl text-center">IPT10<br><span class="bg-gradient-to-r from-blue-300 to-[#c333c5] bg-clip-text text-transparent">Registration Summary</span></h2>
+        <table class="bg-white text-black rounded-lg shadow-md w-7/12 mt-10">
             <thead>
                 <tr>
                     <th class="p-4">Field</th>
-                    <th class="p-4">Value</th>
+                    <th class="p-4">Data</th>
                 </tr>
             </thead>
             <tbody>
@@ -81,7 +82,7 @@ $mobile = !empty($_POST['mobile']) ? htmlspecialchars($_POST['mobile']) : "Not P
         </table>
 
         <form action="register.php" method="get">
-            <button type="submit" class="hover:font-medium w-full mt-10 px-5 py-3 bg-slate-300 hover:bg-slate-500 transition all delay-50 rounded-md">Back to Registration</button>
+            <button type="submit" class="hover:font-medium text-white w-full mt-10 px-8 py-3 transition all delay-50 rounded-md <?php echo $sex === 'Male' ? 'bg-blue-500 hover:bg-blue-600' : ($sex === 'Female' ? 'bg-red-500 hover:bg-red-600' : 'bg-slate-500 hover:bg-slate-600'); ?>">Go Back</button>
         </form>
     </div>
 
